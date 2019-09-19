@@ -1,13 +1,37 @@
 body {
     text-align: center;
-    text-underline-position: below;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic";¨
 }
 
-head{
-    text-align: center
+section{
+    
 }
 
 main{
     background-color: ghostwhite
+}
+
+header {
+    background-color: #726e75;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+header > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header > ul > li {
+    list-style-type: none;
+    padding: 0.4em;
+    font-size: 1.6em;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+ul {
+    margin: 0;
 }
