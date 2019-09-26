@@ -1,10 +1,19 @@
 body {
     text-align: center;
-    font-family: "Century Gothic";¨
+    font-family: "Century Gothic";
+}
+
+
+p{
+    font-family: "Century Gothic";
+    color:whitesmoke;
+    font-size: 1.3em;
+    background-color:black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 section{
-    
+    margin: 1%;  
 }
 
 main{
@@ -12,7 +21,7 @@ main{
 }
 
 header {
-    background-color: #726e75;
+    background-color:black;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
@@ -24,14 +33,14 @@ header > ul {
 header > ul > li {
     list-style-type: none;
     padding: 0.4em;
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 
 header > ul > li > a {
     text-decoration: none;
-    color: ghostwhite;
+    color:whitesmoke;
 }
 
 ul {
-    margin: 0;
+    margin: 0%;
 }
